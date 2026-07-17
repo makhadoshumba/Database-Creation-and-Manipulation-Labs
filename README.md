@@ -6,6 +6,7 @@
 # Application
 Creating the Database and a table to store the local delivery company's drivers:
 <img height= 880px width= 880px src="assets/1.1.png">
+<br>
 Creating a Vehicles table with the approach we mentioned earlier, I used a foreign key to link it to the driver:
 <img height= 880px width= 880px src="assets/1.2.png">
 Created the Departments table:
@@ -14,12 +15,17 @@ Created a Employees table with the approach we mentioned earlier, I used a forei
 <img height= 880px width= 880px src="assets/2.1.1.png">
 Running the SELECT*FROM Employees, to verify eveything is there:
 <img height= 880px width= 880px src="assets/2.1.2.png">
-Manipulating and filtering the data that I recieve from the Employees table( I wanna see every employee that is recieving a salary more than R50 000)
+Manipulating and filtering the data that I recieve from the Employees table( I wanna see every employee that is recieving a salary more than R50 000):
 <img height= 880px width= 880px src="assets/2.1.3.png">
-Manipulating and filtering the data that I recieve from the Employees table(I want to recieve every employee whose lastname has an '%a%' in it)
+Manipulating and filtering the data that I recieve from the Employees table(I want to recieve every employee whose lastname has an '%a%' in it):
 <img height= 880px width= 880px src="assets/2.2.png">
+Creating a table to keep track of Sales:
 <img height= 880px width= 880px src="assets/3.1.1.png">
+Writing a SELECT query that gives me the total revenue and average order price I that is recieved form Sales:
 <img height= 880px width= 880px src="assets/3.1.2.png">
+Categerozing by customer_id to recieve the total each customer spent:
 <img height= 880px width= 880px src="assets/3.2.png">
+Witing a <i>INNER JOIN</i> query which now pulls employees details from Employees table and then using the foreign key I created to also get the the department they are in, all in once:
 <img height= 880px width= 880px src="assets/4.1.2.png">
+Witing a <i>LEFT JOIN</i> query which now pulls employees details from Employees table and then using the foreign key I created to also get the the department they are in, all in once, but this time the Department name is on the left:
 <img height= 880px width= 880px src="assets/4.2.png">
