@@ -1,9 +1,12 @@
 # Database Creation and Manipulation Labs
-<b>Scenario:</b> A local delivery company has asked me create a database with desgnated tables to be able to store information about the company(empoyees, customers, finances). The problem they have is having to document everything on paper, they now wnat to store information in a efficient way, A way that will not only allow them to store information, a way that will also allow them to retrieve inforation quickly.
+### Scenario 
+A local delivery company has asked me create a database with desgnated tables to be able to store information about the company(empoyees, customers, finances). The problem they have is having to document everything on paper, they now wnat to store information in a efficient way, A way that will not only allow them to store information, a way that will also allow them to retrieve inforation quickly.
+### Approach
+I will create these tables with efficiency in mind, I wnat to link certain tables to one another so that one can easily use a join query to fetch all information linked to the "id" maybe, how I will do this is by using foreign keys, linking a primary key form another table to another table which has its information and its own primary key this will allow me to easily pull all data using that foreign key.
+### Descriptive Explanation
+Here is a simplified example of this, imagine that there is a table called Departments with the columns [departmentid, departmentname] and then we have another table called Employees which will has [employeeid, employeename, employeesurname, salary] but then now to know which department an employee is linked to I need to link these tables by using the Department table (departmentid) as a foreign key in the Employee table so when I use a Join query I can pull all info linked to the employee including the department they are in. Employee table final structure [employeeid, employeename, employeesurname, salary, departmentid(FOREIGN KEY)].
 
-<b>My approach:</b> I will create these tables with efficiency in mind, I wnat to link certain tables to one another so that one can easily use a join query to fetch all information linked to the "id" maybe, how I will do this is by using foreign keys, linking a primary key form another table to another table which has its information and its own primary key this will allow me to easily pull all data using that foreign key. Here is a simplified example of this, imagine that there is a table called Departments with the columns [departmentid, departmentname] and then we have another table called Employees which will has [employeeid, employeename, employeesurname, salary] but then now to know which department an employee is linked to I need to link these tables by using the Department table (departmentid) as a foreign key in the Employee table so when I use a Join query I can pull all info linked to the employee including the department they are in. Employee table final structure [employeeid, employeename, employeesurname, salary, departmentid(FOREIGN KEY)].
-
-# Application
+# Actions Carried Out
 Creating the Database and a table to store the local delivery company's drivers:
 <img height= 880px width= 880px src="assets/1.1.png">
 
