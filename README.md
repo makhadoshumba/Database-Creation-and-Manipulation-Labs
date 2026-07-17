@@ -9,6 +9,7 @@ Creating the Database and a table to store the local delivery company's drivers:
 <br>
 Creating a Vehicles table with the approach we mentioned earlier, I used a foreign key to link it to the driver:
 <img height= 880px width= 880px src="assets/1.2.png">
+<br>
 Created the Departments table:
 <img height= 880px width= 880px src="assets/4.1.1.png">
 Created a Employees table with the approach we mentioned earlier, I used a foreign key to link each employee to their department:
