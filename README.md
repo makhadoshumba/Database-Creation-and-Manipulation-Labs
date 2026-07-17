@@ -8,7 +8,7 @@ Creating the Database and a table to store the local delivery company's drivers:
 <img height= 880px width= 880px src="assets/1.1.png">
 
 
-Creating a Vehicles table with the approach we mentioned earlier, I used a foreign key to link it to the driver:
+Creating a Vehicles table with the approach I mentioned earlier, I used a foreign key to link it to the driver:
 <img height= 880px width= 880px src="assets/1.2.png">
 <br>
 
@@ -16,7 +16,7 @@ Created the Departments table:
 <img height= 880px width= 880px src="assets/4.1.1.png"> 
 <br>
 
-Created a Employees table with the approach we mentioned earlier, I used a foreign key to link each employee to their department:
+Created a Employees table with the approach I mentioned earlier, I used a foreign key to link each employee to their department:
 <img height= 880px width= 880px src="assets/2.1.1.png">
 
 
@@ -24,11 +24,11 @@ Running the SELECT*FROM Employees, to verify eveything is there:
 <img height= 880px width= 880px src="assets/2.1.2.png">
 
 
-Manipulating and filtering the data that I recieve from the Employees table( I wanna see every employee that is recieving a salary more than R50 000):
+Manipulating and filtering the data that is recieved from the Employees table( I wanna see every employee that is recieving a salary more than R50 000):
 <img height= 880px width= 880px src="assets/2.1.3.png">
 
 
-Manipulating and filtering the data that I recieve from the Employees table(I want to recieve every employee whose lastname has an '%a%' in it):
+Manipulating and filtering the data that id recieved from the Employees table(I want to recieve every employee whose lastname has an '%a%' in it):
 <img height= 880px width= 880px src="assets/2.2.png">
 
 
